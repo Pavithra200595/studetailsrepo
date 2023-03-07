@@ -16,6 +16,10 @@ public static void main(String args[])
     System.out.println("Maths:"+mat);
     System.out.println("Science:"+sci);
     System.out.println("Social"+soc);
+    tot=eng+tam+mat+sci+soc;
+    avg=tot/5;
+    System.out.println("Total:"+tot);
+    System.out.println("Average:"+avg);
 
 }
 }
